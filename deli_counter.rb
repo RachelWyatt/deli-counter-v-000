@@ -8,7 +8,7 @@ def line(katz_deli)
     line_array << "#{indexplusone}. #{name}"
   end
   string = line_array.join(" ")
-  puts "The line is currently: #{string}."
+  puts "The line is currently: #{string}"
 end
 end
 
