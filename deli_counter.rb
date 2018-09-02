@@ -1,8 +1,8 @@
-def line
+def line(katz_deli)
 end
 
-def take_a_number
+def take_a_number(deli, name)
 end
 
-def now_serving
+def now_serving(katz_deli)
 end
