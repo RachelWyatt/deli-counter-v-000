@@ -9,6 +9,7 @@ def line(katz_deli)
   end
   return line_array
 end
+end
 
 def take_a_number(deli, name)
 end
