@@ -14,7 +14,7 @@ end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
-  index_number = katz_deli.size + 1
+  index_number = katz_deli.size
   puts "Welcome, #{name}. You are number #{index_number} in line."
 end
 
