@@ -4,8 +4,8 @@ def line(katz_deli)
   else
     line_array = []
     katz_deli.each_with_index do |name, index|
-      indexplusone = index + 1
-      line _array << "#{indexplusone}. #{name}"
+    indexplusone = index + 1
+    line _array << "#{indexplusone}. #{name}"
   end
   return line_array
 end
