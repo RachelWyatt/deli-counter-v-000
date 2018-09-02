@@ -7,7 +7,7 @@ def line(katz_deli)
     indexplusone = index + 1
     line_array << "#{indexplusone}. #{name}"
   end
-  return line_array
+  puts line_array
 end
 end
 
