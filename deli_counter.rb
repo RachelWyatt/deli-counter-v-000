@@ -5,9 +5,9 @@ def line(katz_deli)
     line_array = []
     katz_deli.each_with_index do |name, index|
     indexplusone = index + 1
-    line_array << "#{indexplusone} #{name}"
+    line_array << "#{indexplusone}. #{name}"
   end
-  string = line_array.join(". ")
+  string = line_array.join(" ")
   puts "The line is currently: #{string}."
 end
 end
